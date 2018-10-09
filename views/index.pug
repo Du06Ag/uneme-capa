@@ -1,0 +1,218 @@
+doctype html
+html
+  head
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    link(rel="stylesheet" type="text/css" href="stylesheets/materialize.css")
+    //-link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous")
+    link(href="/../images/fav.ico/favicon.ico" rel="icon" type="image/ico")
+    title UNEME - CAPA
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    
+    style.
+      .section-follow .fa-4x {
+        margin: 5px 10px;
+      }   
+  body(id="inicio" class="scrollspy")
+    //-NavBar
+    
+    div(class="navbar-fixed")
+      nav(style="background: #2e7d32; border-bottom: #388e3c 3px solid;")
+        div(class="container")
+          div(class="nav-wrapper")
+            //img(src="images/uneme.jpg" style="height:60px; margin-top:0px;" class="responsive-img")
+            a(href="#" class="brand-logo hide-on-small-only" style="color:#FFFFFF;font-size: 25px;word-spacing: 15pt") UNEME-CAPA
+            a(href="#" data-target="mobile-nav" class="sidenav-trigger" style="color:#087edb")
+              i(class="material-icons") menu  
+            ul(class="right hide-on-med-and-down")
+              li
+                a(href="#inicio" style="color:#FFFFFF; font-size: 12px") Inicio
+              li
+                a(href="#objetivos" style="color:#FFFFFF; font-size: 12px") Objetivos
+              li
+                a(href="#actividades" style="color:#FFFFFF; font-size: 12px") Actividades
+              li
+                a(href="#referencias" style="color:#FFFFFF; font-size: 12px") Reinserción social
+              li
+                a(href="#referencias" style="color:#FFFFFF; font-size: 12px") Referencia
+              li
+                a(href="#contactanos" style="color:#FFFFFF; font-size: 12px") Contacto
+              li
+                a(href="/consulta" style="color:#FFFFFF; font-size: 12px") Consulta de citas
+              li
+                a(href="/login" style="color:#FFFFFF; font-size: 12px") Inicio de sesión                
+    ul(class="sidenav" id="mobile-nav")
+      li
+        a(href="#inicio" style="color:#30B315") Inicio
+      li
+        a(href="#objetivos" style="color:#30B315") Objetivos
+      li
+        a(href="#actividades" style="color:#30B315") Actividades
+      li
+        a(href="#referencias" style="color:#30B315") Reinserción social
+      li
+        a(href="#referencias" style="color:#30B315") Referencia
+      li
+        a(href="#contactanos" style="color:#30B315") Contactanos
+      li
+        a(href="/consulta" style="color:#30B315") Consulta de citas
+      li
+        a(href="/login" style="color:#30B315") Inicio de sesión
+        
+        //- Seccion: Slider
+    section(class="slider")
+      ul(class="slides")
+        li
+          img(src="images/equipo.jpg" style="height: 100%; width: 100%; object-fit: contain")
+          div(class="caption center-align")
+            h3(style="color:#1b5e20") UNIDAD DE ESPECIALIDAD MEDICA CENTRO DE ATENCION PRIMARIA EN ADICCIONES
+            h4(class="light grey-text text-lighten-3 hide-on-small-only") UENEME - CAPA
+        li
+          img(src="images/ayuda.jpg" style="height: 100%; width: 100%; object-fit: contain")
+          div(class="caption center-align")
+            h3(style="color:#e1f5fe") ¿PROBLEMAS CON ADICCIONES?
+            h4(class="light grey-text text-lighten-3 hide-on-small-only") ¡PODEMOS AYUDARTE!
+        li
+          img(src="images/recuperacion.jpg" )
+          div(class="caption center-align")
+            h3(style="color:#004d40") TU RECUPERACIÓN PUEDE COMENZAR HOY
+            h4(class="light grey-text text-lighten-3 hide-on-small-only") UENEME - CAPA CHILPANCINGO
+    
+    //-Seccion de objetivos
+    section(id="objetivos" class="section section-contac scrollspy")
+      div(class="container")
+        div(class="row")
+          div(class="col s12 m12")
+            h4(style="text-align: center; color:#30B315") OBJETIVO DE LOS CENTROS DE ATENCION PRIMARIA EN ADICCIONES
+        div(class="row")
+          div(class="col s12 m8 offset-l2")
+            p(style="font-size: 19px") Brindar atencion oportuna en adicciones, atraves de un modelo con sustento cientifico que contempla desde la prevencion del consumo de sustancias psicoactivas y la promocion de salud, hasta el tratamiento ambulatorio, accesible y de calidad.
+            p(style="font-size: 19px") Las UNEME-CAPA atraves de su modelo integral de atencion, brinda los siguientes servicios:
+            
+            ol(style="font-size: 19px")
+              li Promocion y prevencion de addiciones.
+              li Tratamiento.
+              li Reinserccion social.
+              li Referencia.
+          div(class="col s12 m4 push-m2")
+            div(class="card-panel")
+              img(class="materialboxed" src="images/obj.jpg" class="responsive-img")
+          div(class="col s12 m4 push-m2")
+            div(class="card-panel")
+              img(class="materialboxed" src="images/obj2.jpg" class="responsive-img")
+    
+    //-Seccion de actividades
+    section(id="actividades" class="section section-contac scrollspy")
+      div(class="container")
+        div(class="row")
+          div(class="col s12 m12")
+            h4(style="text-align: center; color:#30B315") Dentro de las actividades de promocion de la salud y prevencion de addiciones, las UNEMES-CAPA realizan:
+        div(class="row")
+          div(class="col s12 m8 offset-l2")
+            ol(style="font-size: 19px; list-style")
+              li Deteccion de adolecentes con factores de riesgo para el consumo de substancias psicoactivas.
+              li Platica para todo publico.
+              li Acciones para la promocion de estilos de vida saludable orientadas a prevenir addiciones (actividades sociales, deportivas y culturales).
+              li Talleres de crianza positiva para padres.
+              li Talleres para famaliares de usuarios con dependencia a las sustancias psicoactivas.
+              li Talleres para maestrosy alumnos.
+              li Capacitacion de profesionales de la salud y actores de la comunidad que quieran prevenir adicciones en su comunidad.    
+              
+          div(class="col s12 m6 offset-l3")
+           div(class="card-panel")
+             img(class="materialboxed" src="images/act.jpg" class="responsive-img")
+    
+    //-Seccion de reinserccion
+    section(id="referencias" class="section section-contac scrollspy")
+      div(class="container")
+        div(class="row")
+          div(class="col s12 m5 push-m1")
+            div(class="card-panel white-text left" style="background:#30B315")
+              h5 Acciones de reinsercion social
+              p Como parte de las acciones de las UNEME- CAPA se realizan tambien actividades educativas, sociales, deportivas y culturales con la finalidad de ofrecer al usuario una atencion integral que mejore diversas areas de su vida.
+                
+          div(class="col s12 m5 push-m1")
+            div(class="card-panel white-text left" style="background:#686f66")
+              h5 Referencia
+              p Si los usuarios no puedan ser atendidos en las UNEME- CAPA porque el tratamiento que se ofrece no responde a sus necesidades, se realiza la derivacion oportuna a un servicio que proporcione la atencion integral necesaria (atencion medica y psicologica) en Centros de integracion juvenil, urgencias medicas, Centro de Atencion Integral para las Adicciones, hospitales psiquiatricos o centros de ayuda mutua.
+    
+    //-Galeria de fotos
+    section(id="galeria" class="section section-gallery scrollspy")
+      div(class="container")
+        div(class="row")
+          div( class="col s12 m10 push-m1")
+            div(class="row")
+              div(class="col s12 m3")
+                img(src="images/equipo.jpg" style="height:120px;width:250px" class="materialboxed responsive-img")
+              div(class="col s12 m3 ")
+                img(src="images/1.jpg" style="height:120px;width:250px" class="materialboxed responsive-img")
+              div(class="col s12 m3")
+                img(src="images/2.jpg" style="height:120px;width:250px" class="materialboxed responsive-img")
+              div(class="col s12 m3")
+                img(src="images/6.jpg" style="height:120px;width:250px" class="materialboxed responsive-img")
+            div(class="row")
+              div(class="col s12 m3")
+                img(src="images/4.jpg" style="height:120px;width:250px" class="materialboxed responsive-img")
+              div(class="col s12 m3")
+                img(src="images/5.jpg" style="height:120px;width:250px" class="materialboxed responsive-img")
+              div(class="col s12 m3")
+                img(src="images/3.jpg" style="height:120px;width:250px" class="materialboxed responsive-img")
+              div(class="col s12 m3")
+                img(src="images/8.jpg" style="height:120px;width:250px" class="materialboxed responsive-img")
+            
+    //-Seccion de contacto
+    section(id="contactanos" class="section section-contac scrollspy")
+      div(class="container")
+        div(class="row")
+          div(class="col s12 m10 push-m1 offset-1")
+            div(class="card-panel white-text center" style="background:#2e7d32; font-size: 20px")
+              i(class="material-icons") email
+              h5 Contáctanos
+              p Sitienes alguna duda o quieres acudir a una UNEME-CAPA llama al:
+              p  01 747 49 43 100 EXT. 1384/137 2191
+              p ESCRIBE AL CORREO ELECTRONICO:
+              P cea_gro@hotmail.com
+            ul(class="collection with-header" style="font-size: 20px; text-align: center")
+              li(class="collection-item" style="color:#30B315;font-weight: bold") Centron de Orientacion Telefonica: 018009112000
+              li(class="collection-item" style="text-align: center; font-weight: bold") O consulta directamente el directorio de los CAPAS:
+              li(class="collection-item" style="text-align: center;")
+                a(href="http://www.cenadic.salud.gob.mx/" target="_blank") http://www.cenadic.salud.gob.mx/
+              li(class="collection-item" style="text-align: center")
+                a(href="http://http://pliconadic01salud.gob.mx/cenadic/directorio/application/controllers/ctrljublicogeneralphp" target="_blank") http://pliconadic01salud.gob.mx/cenadic/directorio/application/controllers/ctrljublicogeneralphp
+              li(class="collection-item" style="text-align: center")
+                a(href="http://www.salud.gob.mx" target="_blank") www.salud.gob.mx
+              li(class="collection-item" style="text-align: center")
+                a(href="http://www.conadic.salud.gob.mx" target="_blank") www.conadic.salud.gob.mx
+              li(class="collection-item" style="text-align: center")
+                a(href="http://www.cenadic.salud.gob.mx" target="_blank") www.cenadic.salud.gob.mx
+        
+        p(style="text-align: center") "Este programa es publico ajeno a cualquier partido politico. Queda
+        p(style="text-align: center") prohibido el uso para fines distintos a los establesidos en el programa"                
+    
+    footer(class="section white-text center" style="background:#2e7d32")
+      p(class="flow-text") UNEME-CAPA WebSite, Copyright &copy; 2018
+      
+    script(type="text/javascript" src="javascripts/materialize.js")
+    //-script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js")
+            
+    script.
+          const sideNav = document.querySelector('.sidenav');
+          M.Sidenav.init(sideNav, {});
+          const slider = document.querySelectorAll('.slider');
+          M.Slider.init(slider, {
+            indicators: false,
+            height: 500,
+            transition: 500,
+            interval: 6000
+          });
+          const mb = document.querySelectorAll('.materialboxed');
+          M.Materialbox.init(mb,{});
+          const ss = document.querySelectorAll('.scrollspy');
+          M.ScrollSpy.init(ss, {});
+          document.addEventListener('DOMContentLoaded', function(){
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems,{
+              fullWidth: true,
+              indicators: true
+            });
+          });
