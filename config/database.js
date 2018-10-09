@@ -1,8 +1,8 @@
 const mysql = require('mysql');
 module.exports = mysql.createConnection({
-  host:'127.0.0.1',
-  user: 'root',
-  password: 'duky',
-  database: 'bduneme',
+  host:'bdclosjpd-mysql.services.clever-cloud.com',
+  user: 'uhegchpy5s87zhto',
+  password: 'z3gFjOWGfJtEsiNz0Md',
+  database: 'bdclosjpd',
   port: 3306
 });
